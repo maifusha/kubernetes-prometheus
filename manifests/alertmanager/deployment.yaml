@@ -19,7 +19,7 @@ spec:
           requiredDuringSchedulingIgnoredDuringExecution:
             nodeSelectorTerms:
             - matchExpressions:
-              - key: monitoringnode
+              - key: monitor-node
                 operator: In
                 values:
                 - "true"

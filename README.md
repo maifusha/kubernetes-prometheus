@@ -1,8 +1,8 @@
 > Kubernetes compose orchestra for Prometheus、Grafana、AlertManager
 
 ## Quick Start
-* `kubectl label nodes your-desired-node monitoringnode=true`
-* `cp -a .env.example .env` and update it (avoid the # char1)
+* `kubectl label nodes your-desired-node monitor-node=true`
+* `cp -a .env.example .env` and update it (avoid the # char)
 * `./deploy.sh`
 
 ## Reimport grafana dashboad

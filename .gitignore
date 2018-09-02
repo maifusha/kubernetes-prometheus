@@ -1,4 +1,6 @@
+.idea/
 .env
-manifests/alertmanager/alertmanager-templates.yaml
-manifests/grafana/import-dashboards/configmap.yaml
+manifests-all.yaml
 manifests/prometheus/configmap.yaml
+manifests/grafana/import-dashboards/configmap.yaml
+manifests/alertmanager/alertmanager-templates.yaml
